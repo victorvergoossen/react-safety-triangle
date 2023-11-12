@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    font-size: 100%;
+    @apply font-sans;
+    @apply font-normal;
+    @apply leading-normal;
+    @apply antialiased;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h5, p, li, span {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
