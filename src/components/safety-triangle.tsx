@@ -7,7 +7,7 @@ interface ISafeArea extends React.HTMLAttributes<HTMLDivElement> {
   showVisualisation: boolean,
 }
 
-export const SafetyTriangle = (props: ISafeArea) => {
+export const DropdownWithSafetyTriangle = (props: ISafeArea) => {
   const dropdownContainerRef = useRef<HTMLElement | null>(null);
   const childRefs = useRef<HTMLElement[]>([]);
   const {
@@ -74,4 +74,4 @@ export const SafetyTriangle = (props: ISafeArea) => {
   );
 };
 
-export default SafetyTriangle;
+export default DropdownWithSafetyTriangle;

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import SafetyTriangle from '../components/safety-triangle';
+import DropdownWithSafetyTriangle from '../components/safety-triangle';
 import { useState } from 'react';
 
 const Index = () => {
@@ -24,7 +24,7 @@ const Index = () => {
           </button>
 
           {open && (
-            <SafetyTriangle
+            <DropdownWithSafetyTriangle
               showVisualisation
               className="mt-6 ml-12"
             >
@@ -42,7 +42,7 @@ const Index = () => {
                 <ul className="px-1 bg-gray-300 hover:bg-gray-100">Example 6</ul>
                 <ul className="px-1 bg-gray-300 hover:bg-gray-100">Example 7</ul>
               </li>
-            </SafetyTriangle>
+            </DropdownWithSafetyTriangle>
           )}
         </div>
       </div>
