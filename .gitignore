@@ -1,5 +1,6 @@
 .cache/
 coverage/
+.next/*
 .vscode/
 dist/*
 !dist/index.html
