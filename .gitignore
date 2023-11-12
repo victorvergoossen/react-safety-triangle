@@ -1,5 +1,6 @@
 .cache/
 coverage/
+.vscode/
 dist/*
 !dist/index.html
 !dist/android-chrome-192x192.png
@@ -21,3 +22,4 @@ node_modules/
 .idea
 ehthumbs.db
 Thumbs.db
+yarn.lock
