@@ -1,0 +1,54 @@
+{
+  "name": "react-safety-triangle",
+  "version": "1.0.0",
+  "description": "This package contains an implementation of the Safety Triangle concept for context menu's, inspired by this article: https://www.smashingmagazine.com/2023/08/better-context-menus-safe-triangles/",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorvergoossen/react-safety-triangle.git"
+  },
+  "keywords": [
+    "safety",
+    "triangle",
+    "react",
+    "context",
+    "menu"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
+    "@babel/plugin-proposal-optional-chaining": "^7.13.12",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "5.3.0",
+    "@rollup/plugin-commonjs": "18.0.0",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "11.2.1",
+    "@types/react": "^17.0.25",
+    "eslint": "^8.6.0",
+    "rollup": "^2.46.0",
+    "rollup-plugin-copy": "3.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "4.0.0",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.36.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^4.4.3"
+  },
+  "author": "Victor Vergoossen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorvergoossen/react-safety-triangle/issues"
+  },
+  "homepage": "https://github.com/victorvergoossen/react-safety-triangle#readme"
+}
